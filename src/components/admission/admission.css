@@ -1,0 +1,383 @@
+.adm-hd h1 {
+  text-align: center;
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 87px;
+  color: black;
+}
+.adm-hd p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 47px;
+  color: black;
+}
+.adm-hd {
+  padding: 5%;
+}
+
+.module{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://live.staticflickr.com/5525/9962882854_a172fa0e48_b.jpg);
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  height: 90vh;
+  /* margin: 10px 0 0 10px; */
+  position: relative;
+  float: left;
+  margin-bottom: 4%;
+}
+
+.mid h2 {
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 900; */
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 64px;
+    transform: translate(-50%, -50%);
+  }
+
+.students h1 {
+  font-size: 37px;
+  text-align: center;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.students p {
+  font-size: 24px;
+  font-weight: 400;
+  /* line-height: 38px; */
+  text-align: center;
+  padding: 0;
+  color: black;
+
+  margin: 0;
+}
+
+/* undergraduate */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #1e1f26; */
+}
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.right {
+  width: 80%;
+  height: 500px;
+  background: url(https://www.stanford.edu/wp-content/uploads/2020/09/Undergraduates.jpg)
+    no-repeat center / cover;
+  border-radius: 8px;
+  margin-left: -150px;
+}
+.left {
+  width: 100%;
+  min-height: 550px;
+  background-color: #f4f4f4;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  color: black;
+}
+.content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.content p {
+  margin: 20px 0;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 19px;
+  text-align: left;
+}
+.content a {
+  text-decoration: none;
+  /* color: blue; */
+  text-transform: capitalize;
+  font-size: 20px;
+  /* background-color: white; */
+  color: #0000ee;
+  font-weight: bold;
+
+  /* padding: 20px 30px; */
+  display: inline-block;
+  /* letter-spacing: 2px; */
+}
+.content2 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.content2 p {
+  margin: 20px 0;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 19px;
+}
+.content2 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  /* background-color: white; */
+  color: #0000ee;
+  /* padding: 20px 30px; */
+  display: inline-block;
+  font-weight: bold;
+
+  /* letter-spacing: 2px; */
+}
+.content3 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  /* background-color: white; */
+  color: black;
+  /* padding: 20px 30px; */
+  display: inline-block;
+  padding-top: 30px;
+  color: #0000ee;
+  font-weight: bold;
+  /* letter-spacing: 2px; */
+}
+
+.content3 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.content {
+  width: 80%;
+}
+
+.content2 {
+  width: 80%;
+  margin-top: 20px;
+}
+.content3 {
+  width: 80%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .left {
+    width: 100%;
+    height: 1100px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -80px;
+    height: 250px;
+  }
+}
+
+/*postgraduate
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #2f2424;
+}
+.container-pg {
+  width: 90%;
+  max-width: 1500px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.left-pg {
+  width: 50%;
+  height: 500px;
+  background: url(https://www.stanford.edu/wp-content/uploads/2017/03/stanford-university-5.jpg)
+    no-repeat center / cover;
+  border-radius: 8px;
+  margin-right: -40px;
+  z-index: 100;
+}
+.right-pg {
+  width: 60%;
+  min-height: 520px;
+  background-color: #f4f4f4;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 30px;
+  border-radius: 8px;
+  color: black;
+  /* margin-left: -150px; */
+}
+
+.content-pg {
+  padding: 25px;
+}
+.content2-pg {
+  padding: 25px;
+}
+.content3-pg {
+  padding: 25px;
+}
+.right-pg h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.right-pg p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+  color: black;
+}
+.right-pg a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  /* background-color: white; */
+  color: #0000ee;
+  font-weight: bold;
+
+  /* padding: 20px 30px; */
+  display: inline-block;
+}
+.content2-pg h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-pg {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .left-pg {
+    width: 100%;
+    height: 300px;
+    margin-right: 0px;
+  }
+  .right-pg {
+    width: 90%;
+    margin: 0;
+    margin-top: -70px;
+    z-index: 100;
+  }
+}
+
+/* .programmes */
+
+.hd-prog {
+  padding: 20px;
+}
+
+.hd-prog h1 {
+  text-align: center;
+  color: black;
+  font-size: 46px;
+  line-height: 58px;
+  font-weight: 700;
+}
+
+.prog-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  color: black;
+  text-align: left;
+}
+
+.prog-content p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+  color: black;
+}
+
+.bg-prog {
+  background: url(https://www.stanford.edu/wp-content/uploads/2017/03/Stanford_Dish.jpg);
+  height: 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.notif h1{
+font-size: 46px;
+line-height: 58px;
+color: black;
+text-align: center;
+padding: 20px;
+font-weight: bold;
+}
+
+.points-notif{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+
+}
+.points-notif p{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+

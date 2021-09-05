@@ -1,0 +1,328 @@
+.module-org{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(http://cmscollege.ac.in/wp-content/uploads/2015/12/IMG_2268.jpg);
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  height: 90vh;
+  /* margin: 10px 0 0 10px; */
+  position: relative;
+  float: left;
+  margin-bottom: 4%;
+}
+
+.mid h2 {
+    font-family: Source Serif Pro, Georgia, Times, "Times New Roman", serif;
+    /* font-weight: 900; */
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 142px;
+    transform: translate(-50%, -50%);
+  }
+  @media only screen and (max-width: 768px){
+      .mid h2{
+    font-size: 52px;
+
+      }
+  }
+
+  .principal h2{
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 49px;
+    color: black;
+  }
+  .principal p{
+      font-size: 29px;
+      color: black;
+      line-height: 50px;
+  }
+  /* .principal{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  } */
+
+  .bg-org{
+    background-image: url('http://cmscollege.ac.in/wp-content/uploads/2015/10/Cinny-1.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  .vice-principal h2{
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 49px;
+    color: black;
+    padding-left: 20px;
+
+  }
+  .vice-principal p{
+      font-size: 29px;
+      color: black;
+      line-height: 50px;
+      padding-left: 20px;
+  }
+
+  /*councile*/
+  .section-org-council {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1e1f26; */
+  }
+  .container-org-council {
+    width: 90%;
+    max-width: 1500px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+  } 
+  .right-exam-c {
+    width: 80%;
+    height: 500px;
+    background: url(https://s3.eu-north-1.amazonaws.com/images.free-apply.com/uni/gallery/lg/1035601667/9052f19a7e9e2d16a10cdc933efd9faa0743a673.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    margin-left: -150px;
+  }
+  .left-org-council {
+    width: 100%;
+    min-height: 550px;
+    background-color: #f4f4f4;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    color: black;
+  }
+.list-result li{
+    padding: 10px;
+}
+
+  .content-org-council h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  }
+  .content-org-council p {
+    margin: 20px 0;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 19px;
+    text-align: left;
+
+  }
+  .content-org-council a {
+    text-decoration: none;
+    /* color: blue; */
+    text-transform: capitalize;
+    font-size: 20px;
+    /* background-color: white; */
+    color: #0000ee;
+    font-weight: bold;
+  
+    /* padding: 20px 30px; */
+    display: inline-block;
+    /* letter-spacing: 2px; */
+  }
+  .content2-org-council h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+  }
+  .content2-org-council p {
+    margin: 20px 0;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 19px;
+    text-align: left;
+
+  }
+  .content2-org-council a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* background-color: white; */
+    color: #0000ee;
+    /* padding: 20px 30px; */
+    display: inline-block;
+    font-weight: bold;
+  padding: 10px;
+    /* letter-spacing: 2px; */
+  }
+  .content3-org-council a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* background-color: white; */
+    color: black;
+    /* padding: 20px 30px; */
+    display: inline-block;
+    color: #0000ee;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+  }
+  
+  .content3-org-council h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+  }
+  
+  .content-org-council {
+    width: 80%;
+  }
+  
+  .content2-org-council {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .content3-org-council {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container-org-council {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 20px;
+    }
+    .left-org-council {
+      width: 100%;
+      height: 1100px;
+    }
+    .right-org-council {
+      width: 90%;
+      margin: 0;
+      margin-top: -80px;
+      height: 250px;
+    }
+  }
+
+  /*council2*/
+  .section-council2 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2f2424;
+  }
+  .container-council2 {
+    width: 90%;
+    max-width: 1500px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+  .left-pg-2 {
+    width: 50%;
+    height: 500px;
+    background: url(https://cmscollege.ac.in/wp-content/uploads/2018/11/MRML0758-1000x400.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    margin-right: -40px;
+    z-index: 100;
+  }
+  .right-council2 {
+    width: 60%;
+    min-height: 520px;
+    background-color: #f4f4f4;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 30px;
+    border-radius: 8px;
+    color: black;
+    /* margin-left: -150px; */
+  }
+  
+  .content-council2 {
+    padding: 25px;
+  }
+  .content2-council2 {
+    padding: 25px;
+  }
+  .content3-council2 {
+    padding: 25px;
+  }
+  .right-council2 h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+  }
+  .right-council2 p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+    color: black;
+  }
+  .right-council2 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* background-color: white; */
+    color: #0000ee;
+    font-weight: bold;
+  
+    /* padding: 20px 30px; */
+    display: inline-block;
+  }
+  .content2-council2 h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .container-council2 li{
+    font-size: 19px;
+    padding: 5px;
+    margin-left: 2px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container-council2 {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 20px;
+    }
+    .left-council2 {
+      width: 100%;
+      height: 300px;
+      margin-right: 0px;
+    }
+    .right-council2 {
+      width: 90%;
+      margin: 0;
+      margin-top: -70px;
+      z-index: 100;
+    }
+  }

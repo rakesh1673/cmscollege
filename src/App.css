@@ -16,14 +16,30 @@
     height: 90vh;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 142px;
+    font-family: Source Serif Pro, Georgia, Times, "Times New Roman", serif;
   }
   
+  @media only screen and (max-width: 768px) {
+    .home,
+    .academics,
+    .aboutus,
+    .sign-up{
+      font-size: 69px;
+    }
+  }
+
   .academics {
-    background: url('https://images.static-collegedunia.com/public/college_data/images/appImage/720_CMSC.jpg?tr=c-force') center center/cover no-repeat;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('https://images.static-collegedunia.com/public/college_data/images/appImage/720_CMSC.jpg?tr=c-force') center center/cover no-repeat;
     color: #fff;
     font-size: 100px;
     margin-bottom: 3rem;
+
   }
 
   .undergraduate-1 {
@@ -56,7 +72,12 @@
   }
   
   .aboutus {
-    background: url('https://img.youtube.com/vi/V0AMLEtDOK8/maxresdefault.jpg') center center/cover no-repeat;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('https://img.youtube.com/vi/V0AMLEtDOK8/maxresdefault.jpg') center center/cover no-repeat;
     color: #fffff3;
     font-size: 60px;
   }
