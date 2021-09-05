@@ -1,0 +1,14 @@
+.grid-container {
+    margin: 3% ;
+    text-align: center;
+}
+
+.grid-paragraph {
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.grid-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}

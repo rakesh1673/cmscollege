@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .home,
+  .academics,
+  .aboutus,
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .academics {
+    background: url('https://images.static-collegedunia.com/public/college_data/images/appImage/720_CMSC.jpg?tr=c-force') center center/cover no-repeat;
+    color: #fff;
+    font-size: 100px;
+    margin-bottom: 3rem;
   }
-}
+
+  .undergraduate-1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .undergraduate-2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+
+  .undergraduate {
+    margin-bottom: 5rem;
+  }
+
+  .undergraduate-heading {
+    margin: 2rem 0;
+  }
+
+  .undergraduate-img-1 {
+    position: absolute;
+    left: 9rem;
+  }
+
+  .undergraduate-img-2 {
+    position: absolute;
+    right: 9rem;
+  }
+  
+  .aboutus {
+    background: url('https://img.youtube.com/vi/V0AMLEtDOK8/maxresdefault.jpg') center center/cover no-repeat;
+    color: #fffff3;
+    font-size: 60px;
+  }
+
+  .aboutus-heading {
+    text-shadow: 3px 3px 3px #000;
+  }
+
+  .aboutus-description {
+    font-size: 3rem;
+    font-weight: 200;
+    color: rgb(236, 232, 231);
+    text-shadow: 2px 2px 2px #000;
+  }
+
+  .aboutus-section-2 {
+    margin-top: 3rem;
+  }
+
+  .aboutus-section-2 h1 {
+    color: red;
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px #000;
+    font-family: 'Source Serif Pro', serif;
+  }
+
+  .aboutus-section-2-description {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutus-section-2 > p {
+    margin: 0 10%;
+    margin-bottom: 20px;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+  }
+
+  .aboutus-card {
+    text-align: center;
+    background: rgb(0, 0, 0, 0.1);
+    width: 30rem;
+    height: 18rem;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: .3rem .3rem .3rem #000;
+  }
+
+  .aboutus-card h3{
+    font-size: 2rem;
+  }
+
+  .aboutus-card p {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin: 1rem;
+  }
+
+  .aboutus-grid {
+    margin: 2% 10%;
+  }
+
+  .aboutus-grid-1 {
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .aboutus-horizontal-line {
+    width: 100%;
+  }
+  
+
+  .sign-up {
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  

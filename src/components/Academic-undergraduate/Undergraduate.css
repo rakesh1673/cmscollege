@@ -1,0 +1,18 @@
+.undergraduate-card {
+    width: 50%;
+    margin: 2rem;
+    height: 15rem;
+    background-color: lightgray;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uc-heading {
+    margin-bottom: .5rem;
+}
+
+.uc-para {
+    margin-bottom: 1rem;
+}
